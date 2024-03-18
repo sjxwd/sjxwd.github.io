@@ -13,9 +13,3 @@ function createtime() {
     document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
 } 
 setInterval("createtime()",250);
-#timeDate {
-	font-size: 12px;
-}
-#times {
-	font-size: 12px;
-}
