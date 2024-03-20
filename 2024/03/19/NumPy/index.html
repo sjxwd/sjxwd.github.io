@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/python_picture/NumPy.png">
 <meta property="article:published_time" content="2024-03-19T03:58:58.000Z">
-<meta property="article:modified_time" content="2024-03-20T14:08:11.658Z">
+<meta property="article:modified_time" content="2024-03-20T14:11:31.333Z">
 <meta property="article:author" content="SJX">
 <meta property="article:tag" content="NumPy基础">
 <meta name="twitter:card" content="summary_large_image">
@@ -297,8 +297,7 @@
 
 <h3 id="3-矩阵的切片、拷贝"><a href="#3-矩阵的切片、拷贝" class="headerlink" title="3.矩阵的切片、拷贝"></a>3.矩阵的切片、拷贝</h3><h4 id="切片-仅仅是原来数组的视图，不会创建新的变量-self"><a href="#切片-仅仅是原来数组的视图，不会创建新的变量-self" class="headerlink" title="切片 (仅仅是原来数组的视图，不会创建新的变量)   self[]"></a>切片 (仅仅是原来数组的视图，不会创建新的变量)   <code>self[]</code></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs python">arr2[<span class="hljs-number">1</span>:<span class="hljs-number">3</span>,<span class="hljs-number">1</span>:-<span class="hljs-number">1</span>] <span class="hljs-comment"># 取第2行到第3行,第2列到随后1列的矩阵</span><br>arr2[<span class="hljs-number">3</span>,:] <span class="hljs-comment"># 取第3行的全部 </span><br>arr2[:,<span class="hljs-number">3</span>] <span class="hljs-comment"># 取第3列的全部(但注意输出为向量而不是列矩阵，目的是为节省空间)</span><br>arr2[:,<span class="hljs-number">3</span>].reshape <span class="hljs-comment"># 提取第3列的全部且输出为列矩阵</span><br><br><span class="hljs-comment"># Numpy仅仅是原来数组的视图，不会创建新的变量</span><br>cut = arr2[<span class="hljs-number">1</span>:<span class="hljs-number">3</span>] <span class="hljs-comment"># 切片</span><br>cut[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>]=<span class="hljs-number">100</span> <span class="hljs-comment"># 修改其中的元素</span><br><span class="hljs-built_in">print</span>(arr2) <span class="hljs-comment"># 会发现原数组的相应元素也被修改了</span><br></code></pre></td></tr></table></figure>
 
-<pre><code class="hljs"> 结果：
-</code></pre>
+<p>​	结果：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs pythonpython">array([[  6,   7,   8,   9,  10],<br>       [ 11,  12, 100,  14,  15]])<br></code></pre></td></tr></table></figure>
 
 
