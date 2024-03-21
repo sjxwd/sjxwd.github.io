@@ -19,15 +19,15 @@
     <meta name="description" content="基础Numpy">
 <meta property="og:type" content="article">
 <meta property="og:title" content="NumPy基础">
-<meta property="og:url" content="http://example.com/2024/03/21/NumPy/index.html">
+<meta property="og:url" content="http://example.com/2024/03/21/NumPy%E5%9F%BA%E7%A1%80/index.html">
 <meta property="og:site_name" content="SJX&#39;s blog">
 <meta property="og:description" content="基础Numpy">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/python_picture/NumPy.png">
 <meta property="article:published_time" content="2024-03-21T06:57:58.000Z">
-<meta property="article:modified_time" content="2024-03-21T08:21:31.765Z">
+<meta property="article:modified_time" content="2024-03-21T11:56:49.915Z">
 <meta property="article:author" content="SJX">
-<meta property="article:tag" content="NumPy基础">
+<meta property="article:tag" content="NumPy">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/python_picture/NumPy.png">
   
@@ -232,7 +232,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2k 字
+          2.1k 字
         
       </span>
     
@@ -243,7 +243,7 @@
         
         
         
-          17 分钟
+          18 分钟
         
       </span>
     
@@ -286,7 +286,7 @@
               <div class="markdown-body">
                 
                 <hr>
-<h3 id="1-数组的创建、类型转换、维度转换"><a href="#1-数组的创建、类型转换、维度转换" class="headerlink" title="1.数组的创建、类型转换、维度转换"></a>1.数组的创建、类型转换、维度转换</h3><h4 id="数组创建np-arrray-np-arrange-np-random"><a href="#数组创建np-arrray-np-arrange-np-random" class="headerlink" title="数组创建	np.arrray()	np.arrange()	np.random."></a>数组创建	<code>np.arrray()</code>	<code>np.arrange()</code>	<code>np.random.</code></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br><span class="hljs-comment"># np.array()</span><br>arr1 = np.array([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]) <span class="hljs-comment"># 创建整型一维数组</span><br>arr2 = np.array([<span class="hljs-number">1.0</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]) <span class="hljs-comment"># 创建浮点一维数组</span><br>arr3 = np.array([[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]]) <span class="hljs-comment"># 创建二维数组行矩阵</span><br>arr4 = np.array([[<span class="hljs-number">1</span>],[<span class="hljs-number">2</span>],[<span class="hljs-number">3</span>]]) <span class="hljs-comment"># 创建二维数组列矩阵</span><br><span class="hljs-comment"># np.arange()</span><br>arr4 = np.arange(<span class="hljs-number">10</span>) <span class="hljs-comment"># 创建1~10的一维递增数组</span><br>arr5 = np.arange(<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">2</span>) <span class="hljs-comment"># 递增数组(步长为2)</span><br><span class="hljs-comment"># np.ones()、np.zeros()</span><br>np.ones(<span class="hljs-number">3</span>) np.ones((<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 全为1的</span><br>np.zeros(<span class="hljs-number">3</span>) np.zeros((<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 全为0的</span><br><span class="hljs-number">3.14</span>*np.ones((<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 全为3.14的</span><br><br><span class="hljs-comment"># np.random 用于生成随机数组</span><br><span class="hljs-comment"># np.random.rand() # 0~1的均匀分布</span><br>np.random.rand(<span class="hljs-number">10</span>) <span class="hljs-comment"># 随机10个数据的一维数组</span><br>np.random.rand(<span class="hljs-number">3</span>,<span class="hljs-number">3</span>) <span class="hljs-comment"># 随机行为3，列为3的二维数组(一个括号)</span><br><span class="hljs-comment"># np.random.random() # 浮点型</span><br>np.random.random(<span class="hljs-number">10</span>) <span class="hljs-comment"># 一维</span><br>np.random.random((<span class="hljs-number">3</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 二维(两个括号)</span><br><span class="hljs-comment"># np.random.randint() # 整型</span><br>np.random.randint(<span class="hljs-number">10</span>,<span class="hljs-number">100</span>,(<span class="hljs-number">3</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment">#3行3列的10~100的整型二维数组</span><br><span class="hljs-comment"># np.random.normal() # 正态分布</span><br>np.random.normal(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,(<span class="hljs-number">3</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 3行3列的符合标准正态分布的二维数组</span><br></code></pre></td></tr></table></figure>
+<h3 id="1-数组的创建、类型转换、维度转换"><a href="#1-数组的创建、类型转换、维度转换" class="headerlink" title="1.数组的创建、类型转换、维度转换"></a>1.数组的创建、类型转换、维度转换</h3><h4 id="数组创建np-arrray-np-arrange-np-random"><a href="#数组创建np-arrray-np-arrange-np-random" class="headerlink" title="数组创建	np.arrray()	np.arrange()	np.random."></a>数组创建	<code>np.arrray()</code>	<code>np.arrange()</code>	<code>np.random.</code></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br><span class="hljs-comment"># np.array()</span><br>arr1 = np.array([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]) <span class="hljs-comment"># 创建整型一维数组</span><br>arr2 = np.array([<span class="hljs-number">1.0</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]) <span class="hljs-comment"># 创建浮点一维数组</span><br>arr3 = np.array([[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]]) <span class="hljs-comment"># 创建二维数组行矩阵</span><br>arr4 = np.array([[<span class="hljs-number">1</span>],[<span class="hljs-number">2</span>],[<span class="hljs-number">3</span>]]) <span class="hljs-comment"># 创建二维数组列矩阵</span><br><span class="hljs-comment"># np.arange()</span><br>arr4 = np.arange(<span class="hljs-number">10</span>) <span class="hljs-comment"># 创建1~10的一维递增数组</span><br>arr5 = np.arange(<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">2</span>) <span class="hljs-comment"># 递增数组(步长为2)</span><br><span class="hljs-comment"># np.ones()、np.zeros()</span><br>np.ones(<span class="hljs-number">3</span>) np.ones((<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 全为1的</span><br>np.zeros(<span class="hljs-number">3</span>) np.zeros((<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 全为0的</span><br><span class="hljs-number">3.14</span>*np.ones((<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)) / np.full((<span class="hljs-number">1</span>,<span class="hljs-number">3</span>),<span class="hljs-number">3.14</span>) <span class="hljs-comment"># 全为3.14的</span><br>np.ones_like(arr1) np.zeros_like(arr1) <span class="hljs-comment"># 填充数字</span><br>np.full_like(arr1,<span class="hljs-number">3.14</span>) <br><br><span class="hljs-comment"># np.random 用于生成随机数组</span><br><span class="hljs-comment"># np.random.rand() # 0~1的均匀分布</span><br>np.random.rand(<span class="hljs-number">10</span>) <span class="hljs-comment"># 随机10个数据的一维数组</span><br>np.random.rand(<span class="hljs-number">3</span>,<span class="hljs-number">3</span>) <span class="hljs-comment"># 随机行为3，列为3的二维数组(一个括号)</span><br><span class="hljs-comment"># np.random.random() # 浮点型</span><br>np.random.random(<span class="hljs-number">10</span>) <span class="hljs-comment"># 一维</span><br>np.random.random((<span class="hljs-number">3</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 二维(两个括号)</span><br><span class="hljs-comment"># np.random.randint() # 整型</span><br>np.random.randint(<span class="hljs-number">10</span>,<span class="hljs-number">100</span>,(<span class="hljs-number">3</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment">#3行3列的10~100的整型二维数组</span><br><span class="hljs-comment"># np.random.normal() # 正态分布</span><br>np.random.normal(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,(<span class="hljs-number">3</span>,<span class="hljs-number">3</span>)) <span class="hljs-comment"># 3行3列的符合标准正态分布的二维数组</span><br></code></pre></td></tr></table></figure>
 
 <p><strong>注：之后的代码默认arr1为一维数组，arr2为二维数组。</strong></p>
 <h4 id="数组类型转换self-astype"><a href="#数组类型转换self-astype" class="headerlink" title="数组类型转换	self.astype()"></a>数组类型转换	<code>self.astype()</code></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">arr2 = arr1.astype(<span class="hljs-built_in">float</span>) <span class="hljs-comment"># 整型数组转换为浮点型</span><br>arr1 = arr2.astype(<span class="hljs-built_in">int</span>) <span class="hljs-comment"># 浮点转换为整型</span><br></code></pre></td></tr></table></figure>
@@ -347,7 +347,7 @@
 <h4 id="指数函数"><a href="#指数函数" class="headerlink" title="指数函数"></a>指数函数</h4><p><code>np.exp(x)</code>——e的x次方</p>
 <h4 id="对数函数"><a href="#对数函数" class="headerlink" title="对数函数"></a>对数函数</h4><p><code>np.log(x)</code>——10为底</p>
 <p><code>np.log(x)/np.log(2)</code>——2为底</p>
-<h4 id="聚合函数"><a href="#聚合函数" class="headerlink" title="聚合函数"></a>聚合函数</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs python">np.<span class="hljs-built_in">max</span>(arr,axis=<span class="hljs-number">1</span>)/np.<span class="hljs-built_in">min</span>(arr,axis=<span class="hljs-number">1</span>) <span class="hljs-comment"># 按列寻找最大/小值，输出为每一列的最大值</span><br>np.<span class="hljs-built_in">max</span>(arr) <span class="hljs-comment"># 整体最大值</span><br>np.<span class="hljs-built_in">sum</span>()<br>mp.mean()<br>np.std() <span class="hljs-comment"># 标准差函数</span><br><br><span class="hljs-comment"># 有缺失值时</span><br>np.nansum()  np.nanmean()<br></code></pre></td></tr></table></figure>
+<h4 id="聚合函数"><a href="#聚合函数" class="headerlink" title="聚合函数"></a>聚合函数</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs python">np.<span class="hljs-built_in">max</span>(arr,axis=<span class="hljs-number">1</span>)/np.<span class="hljs-built_in">min</span>(arr,axis=<span class="hljs-number">1</span>) <span class="hljs-comment"># 按列寻找最大/小值，输出为每一列的最大值</span><br>np.<span class="hljs-built_in">max</span>(arr) <span class="hljs-comment"># 整体最大值</span><br>np.<span class="hljs-built_in">sum</span>()<br>mp.mean()<br>np.std() <span class="hljs-comment"># 标准差函数</span><br>np.var()<br>np.average()<br>np.prod() <span class="hljs-comment"># 所有元素的乘积</span><br>np.cumsum() <span class="hljs-comment"># 从0开始的元素累加</span><br>np.cumprod() <span class="hljs-comment"># 从1开始的元素累积</span><br>np.median()<br>np.argmax() / np.argmin() <span class="hljs-comment"># 输出索引位置</span><br><span class="hljs-comment"># 有缺失值时</span><br>np.nansum()  np.nanmean()<br></code></pre></td></tr></table></figure>
 
 <h3 id="8-布尔型数组"><a href="#8-布尔型数组" class="headerlink" title="8.布尔型数组"></a>8.布尔型数组</h3><h4 id="创建布尔型数组"><a href="#创建布尔型数组" class="headerlink" title="创建布尔型数组"></a>创建布尔型数组</h4><p>用普通数组与数比较大小产生</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs python">arr3 = arr1&gt;<span class="hljs-number">3</span><br><br><span class="hljs-comment"># and:&amp;</span><br><span class="hljs-comment"># or:|</span><br><span class="hljs-comment"># not:~</span><br>np.<span class="hljs-built_in">sum</span>() <span class="hljs-comment"># 统计true的数量</span><br>np.<span class="hljs-built_in">any</span>() <span class="hljs-comment"># 有一个true则返回true</span><br>np.<span class="hljs-built_in">all</span>() <span class="hljs-comment"># 全为true则返回true</span><br></code></pre></td></tr></table></figure>
@@ -356,7 +356,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">arr3 = arr1&gt;<span class="hljs-number">3</span> <span class="hljs-comment"># arr3为布尔型数组</span><br>arr4 = arr1[arr3] <span class="hljs-comment"># 输出为arr1&gt;4的元素</span><br></code></pre></td></tr></table></figure>
 
 <p><strong>注：矩阵进行掩码操作后,退化为了向量</strong></p>
-<h4 id="满足条件的元素所在位置-np-where"><a href="#满足条件的元素所在位置-np-where" class="headerlink" title="满足条件的元素所在位置  np.where()"></a>满足条件的元素所在位置  <code>np.where()</code></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># np.where()输出元素的索引,返回两个值,第一个是索引值，第二个是数据类型</span><br>np.where(arr1&gt;<span class="hljs-number">3</span>)[<span class="hljs-number">0</span>] <span class="hljs-comment"># 只输出索引值</span><br></code></pre></td></tr></table></figure>
+<h4 id="满足条件的元素所在位置及修改-np-where"><a href="#满足条件的元素所在位置及修改-np-where" class="headerlink" title="满足条件的元素所在位置及修改  np.where()"></a>满足条件的元素所在位置及修改  <code>np.where()</code></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># np.where()输出元素的索引,返回两个值,第一个是索引值，第二个是数据类型</span><br>np.where(arr1&gt;<span class="hljs-number">3</span>)[<span class="hljs-number">0</span>] <span class="hljs-comment"># 只输出索引值</span><br>np.where(arr1&gt;<span class="hljs-number">3</span>,<span class="hljs-number">1</span>,<span class="hljs-number">0</span>) <span class="hljs-comment"># 将arr1&gt;3的赋值1，其余为0 </span><br></code></pre></td></tr></table></figure>
 
 <h4 id="9-从数组到张量"><a href="#9-从数组到张量" class="headerlink" title="9.从数组到张量"></a>9.从数组到张量</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 相互转换</span><br>ts = torch.tensor(arr)<br>arr = np.array(ts)<br></code></pre></td></tr></table></figure>
 
@@ -402,7 +402,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/NumPy%E5%9F%BA%E7%A1%80/" class="print-no-link">#NumPy基础</a>
+        <a href="/tags/NumPy/" class="print-no-link">#NumPy</a>
       
     </div>
   
@@ -415,7 +415,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>NumPy基础</div>
-      <div>http://example.com/2024/03/21/NumPy/</div>
+      <div>http://example.com/2024/03/21/NumPy基础/</div>
     </div>
     <div class="license-meta">
       
@@ -459,9 +459,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/03/21/NumPy%E8%BF%9B%E9%98%B6/" title="NumPy进阶">
+                      <a href="/2024/03/21/NumPy/" title="NumPy基础">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">NumPy进阶</span>
+                        <span class="hidden-mobile">NumPy基础</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -469,8 +469,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/03/21/NumPy%E5%9F%BA%E7%A1%80/" title="NumPy基础">
-                        <span class="hidden-mobile">NumPy基础</span>
+                      <a href="/2024/03/15/%E7%9F%AD%E8%AF%97%E5%8F%A5%E6%94%B6%E8%97%8F/" title="短诗句收藏">
+                        <span class="hidden-mobile">短诗句收藏</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
