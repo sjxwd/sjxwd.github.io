@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-21T13:57:53.062Z</updated>
+  <updated>2024-03-21T13:59:11.829Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2024/03/21/Python%E5%9F%BA%E7%A1%80%E8%AF%BE/"/>
     <id>http://example.com/2024/03/21/Python%E5%9F%BA%E7%A1%80%E8%AF%BE/</id>
     <published>2024-03-21T13:55:58.000Z</published>
-    <updated>2024-03-21T13:57:53.062Z</updated>
+    <updated>2024-03-21T13:59:11.829Z</updated>
     
     
     <summary type="html">上Python基础课时学习到的基础与一些注意事项</summary>
@@ -30,7 +30,7 @@
     
     <category term="Python" scheme="http://example.com/categories/Python/"/>
     
-    <category term="Python基础课" scheme="http://example.com/categories/Python/Python%E5%9F%BA%E7%A1%80%E8%AF%BE/"/>
+    <category term="Python" scheme="http://example.com/categories/Python/Python/"/>
     
     
     <category term="Python" scheme="http://example.com/tags/Python/"/>
