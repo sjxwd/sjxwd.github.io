@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-21T14:02:25.736Z</updated>
+  <updated>2024-03-21T14:08:06.264Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2024/03/21/Python%E5%9F%BA%E7%A1%80%E8%AF%BE/"/>
     <id>http://example.com/2024/03/21/Python%E5%9F%BA%E7%A1%80%E8%AF%BE/</id>
     <published>2024-03-21T13:55:58.000Z</published>
-    <updated>2024-03-21T14:02:25.736Z</updated>
+    <updated>2024-03-21T14:08:06.264Z</updated>
     
     
     <summary type="html">上Python基础课时学习到的基础与一些注意事项</summary>
@@ -29,8 +29,6 @@
     
     
     <category term="Python" scheme="http://example.com/categories/Python/"/>
-    
-    <category term="Python" scheme="http://example.com/categories/Python/Python/"/>
     
     
     <category term="Python" scheme="http://example.com/tags/Python/"/>
@@ -42,16 +40,14 @@
     <link href="http://example.com/2024/03/21/NumPy%E8%BF%9B%E9%98%B6/"/>
     <id>http://example.com/2024/03/21/NumPy%E8%BF%9B%E9%98%B6/</id>
     <published>2024-03-21T09:57:58.000Z</published>
-    <updated>2024-03-21T11:56:49.916Z</updated>
+    <updated>2024-03-21T14:08:06.262Z</updated>
     
     
     <summary type="html">进阶Numpy</summary>
     
     
     
-    <category term="Python" scheme="http://example.com/categories/Python/"/>
-    
-    <category term="NumPy" scheme="http://example.com/categories/Python/NumPy/"/>
+    <category term="NumPy" scheme="http://example.com/categories/NumPy/"/>
     
     
     <category term="NumPy" scheme="http://example.com/tags/NumPy/"/>
@@ -63,16 +59,14 @@
     <link href="http://example.com/2024/03/21/NumPy%E5%9F%BA%E7%A1%80/"/>
     <id>http://example.com/2024/03/21/NumPy%E5%9F%BA%E7%A1%80/</id>
     <published>2024-03-21T06:57:58.000Z</published>
-    <updated>2024-03-21T14:01:04.949Z</updated>
+    <updated>2024-03-21T14:08:06.260Z</updated>
     
     
     <summary type="html">基础Numpy</summary>
     
     
     
-    <category term="Python" scheme="http://example.com/categories/Python/"/>
-    
-    <category term="NumPy" scheme="http://example.com/categories/Python/NumPy/"/>
+    <category term="NumPy" scheme="http://example.com/categories/NumPy/"/>
     
     
     <category term="NumPy" scheme="http://example.com/tags/NumPy/"/>
