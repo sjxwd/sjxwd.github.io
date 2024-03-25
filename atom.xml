@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-22T04:43:14.347Z</updated>
+  <updated>2024-03-25T11:26:59.257Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>感知机</title>
+    <link href="http://example.com/2024/03/24/%E6%84%9F%E7%9F%A5%E6%9C%BA/"/>
+    <id>http://example.com/2024/03/24/%E6%84%9F%E7%9F%A5%E6%9C%BA/</id>
+    <published>2024-03-24T11:35:58.000Z</published>
+    <updated>2024-03-25T11:26:59.257Z</updated>
+    
+    
+    <summary type="html">感知机学习</summary>
+    
+    
+    
+    <category term="统计机器学习" scheme="http://example.com/categories/%E7%BB%9F%E8%AE%A1%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="统计机器学习" scheme="http://example.com/tags/%E7%BB%9F%E8%AE%A1%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>Python基础课</title>
