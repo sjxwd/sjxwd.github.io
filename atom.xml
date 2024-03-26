@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-25T11:26:59.257Z</updated>
+  <updated>2024-03-26T04:34:29.545Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PyTorch基础</title>
+    <link href="http://example.com/2024/03/26/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/"/>
+    <id>http://example.com/2024/03/26/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/</id>
+    <published>2024-03-26T03:35:58.000Z</published>
+    <updated>2024-03-26T04:34:29.545Z</updated>
+    
+    
+    <summary type="html">PyTorch基础——数据操作与预处理、线性代数、矩阵计算、自动求导、线性回归和基础优化算法</summary>
+    
+    
+    
+    <category term="PyTorch" scheme="http://example.com/categories/PyTorch/"/>
+    
+    
+    <category term="PyTorch" scheme="http://example.com/tags/PyTorch/"/>
+    
+  </entry>
   
   <entry>
     <title>感知机</title>
