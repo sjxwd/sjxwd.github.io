@@ -16,12 +16,12 @@
   <meta name="author" content="SJX">
   <meta name="keywords" content="">
   
-    <meta name="description" content="声明：以下内容来自知乎up主[lterator](矩阵求导的本质与分子布局、分母布局的本质（矩阵求导——本质篇） - 知乎 (zhihu.com)) 首先，对于函数与变量，分别有三种形式为标量，向量，矩阵。针对不同的类型，求导结果不同。 一、布局 总的来说，可以概括为：  谁是列向量就是谁的布局。(是谁的布局谁就是行) 求导时按列向量求导，按行向量写。  理解：  第一条是说： 如果分子为列向量，">
+    <meta name="description" content="矩阵求导的数学原理">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SJX&#39;s blog">
-<meta property="og:url" content="http://example.com/2024/03/27/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/index.html">
+<meta property="og:title" content="矩阵求导原理">
+<meta property="og:url" content="http://example.com/2024/03/26/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/index.html">
 <meta property="og:site_name" content="SJX&#39;s blog">
-<meta property="og:description" content="声明：以下内容来自知乎up主[lterator](矩阵求导的本质与分子布局、分母布局的本质（矩阵求导——本质篇） - 知乎 (zhihu.com)) 首先，对于函数与变量，分别有三种形式为标量，向量，矩阵。针对不同的类型，求导结果不同。 一、布局 总的来说，可以概括为：  谁是列向量就是谁的布局。(是谁的布局谁就是行) 求导时按列向量求导，按行向量写。  理解：  第一条是说： 如果分子为列向量，">
+<meta property="og:description" content="矩阵求导的数学原理">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403261913557.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403261927298.png">
@@ -36,9 +36,10 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262034136.jpeg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262036600.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403272000499.png">
-<meta property="article:published_time" content="2024-03-27T12:02:06.077Z">
-<meta property="article:modified_time" content="2024-03-27T12:02:06.078Z">
+<meta property="article:published_time" content="2024-03-26T03:35:58.000Z">
+<meta property="article:modified_time" content="2024-03-27T14:11:30.942Z">
 <meta property="article:author" content="SJX">
+<meta property="article:tag" content="PyTorch">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403261913557.png">
   
@@ -46,7 +47,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>SJX&#39;s blog</title>
+  <title>矩阵求导原理 - SJX&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -220,7 +221,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text=""></span>
+            <span id="subtitle" data-typed-text="矩阵求导原理"></span>
           
         </div>
 
@@ -231,8 +232,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-03-27 20:02" pubdate>
-          2024年3月27日 晚上
+        <time datetime="2024-03-26 11:35" pubdate>
+          2024年3月26日 中午
         </time>
       </span>
     
@@ -291,7 +292,7 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header"></h1>
+            <h1 id="seo-header">矩阵求导原理</h1>
             
             
               <div class="markdown-body">
@@ -343,6 +344,34 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/PyTorch/" class="category-chain-item">PyTorch</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/PyTorch/" class="print-no-link">#PyTorch</a>
+      
+    </div>
   
 </div>
 
@@ -352,8 +381,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div></div>
-      <div>http://example.com/2024/03/27/矩阵求导/</div>
+      <div>矩阵求导原理</div>
+      <div>http://example.com/2024/03/26/矩阵求导/</div>
     </div>
     <div class="license-meta">
       
@@ -365,7 +394,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年3月27日</div>
+          <div>2024年3月26日</div>
         </div>
       
       
@@ -397,12 +426,18 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2024/03/27/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/" title="PyTorch基础">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">PyTorch基础</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/03/26/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/" title="PyTorch基础">
-                        <span class="hidden-mobile">PyTorch基础</span>
+                      <a href="/2024/03/24/%E6%84%9F%E7%9F%A5%E6%9C%BA/" title="感知机">
+                        <span class="hidden-mobile">感知机</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

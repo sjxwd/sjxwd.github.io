@@ -339,7 +339,7 @@
   </entry>
   <entry>
     <title>PyTorch基础</title>
-    <url>/2024/03/26/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/</url>
+    <url>/2024/03/27/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/</url>
     <content><![CDATA[<h1 id="一、数据操作"><a href="#一、数据操作" class="headerlink" title="一、数据操作"></a>一、数据操作</h1><p>PyTorch的数据操作基本与NumPy相同：</p>
 <p>在PyTorch里面用的是torch，创建数组用的是torch.tensor()</p>
 <p>在NumPy里面用的是np，创建数组用的是np.array()</p>
@@ -414,8 +414,8 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/03/27/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/</url>
+    <title>矩阵求导原理</title>
+    <url>/2024/03/26/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/</url>
     <content><![CDATA[<p><strong>声明：以下内容来自知乎up主[lterator](<a href="https://zhuanlan.zhihu.com/p/263777564">矩阵求导的本质与分子布局、分母布局的本质（矩阵求导——本质篇） - 知乎 (zhihu.com)</a>)</strong></p>
 <p>首先，对于函数与变量，分别有三种形式为标量，向量，矩阵。针对不同的类型，求导结果不同。</p>
 <h2 id="一、布局"><a href="#一、布局" class="headerlink" title="一、布局"></a>一、布局</h2><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403261913557.png"></p>
@@ -456,5 +456,11 @@
 <h3 id="4-总结"><a href="#4-总结" class="headerlink" title="4. 总结"></a>4. 总结</h3><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262036600.png"></p>
 <h3 id="5-分子布局的矩阵求导运算"><a href="#5-分子布局的矩阵求导运算" class="headerlink" title="5. 分子布局的矩阵求导运算"></a>5. 分子布局的矩阵求导运算</h3><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403272000499.png"></p>
 ]]></content>
+      <categories>
+        <category>PyTorch</category>
+      </categories>
+      <tags>
+        <tag>PyTorch</tag>
+      </tags>
   </entry>
 </search>

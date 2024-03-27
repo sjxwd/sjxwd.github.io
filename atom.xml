@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-27T12:02:06.078Z</updated>
+  <updated>2024-03-27T14:11:30.940Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,35 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://example.com/2024/03/27/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/"/>
-    <id>http://example.com/2024/03/27/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/</id>
-    <published>2024-03-27T12:02:06.077Z</published>
-    <updated>2024-03-27T12:02:06.078Z</updated>
+    <title>PyTorch基础</title>
+    <link href="http://example.com/2024/03/27/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/"/>
+    <id>http://example.com/2024/03/27/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/</id>
+    <published>2024-03-27T03:35:58.000Z</published>
+    <updated>2024-03-27T14:11:30.940Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;声明：以下内容来自知乎up主[lterator](&lt;a href=&quot;https://zhuanlan.zhihu.com/p/263777564&quot;&gt;矩阵求导的本质与分子布局、分母布局的本质（矩阵求导——本质篇） - 知乎</summary>
-        
-      
+    <summary type="html">PyTorch基础——数据操作与预处理、线性代数、矩阵计算、自动求导</summary>
     
     
     
+    <category term="PyTorch" scheme="http://example.com/categories/PyTorch/"/>
+    
+    
+    <category term="PyTorch" scheme="http://example.com/tags/PyTorch/"/>
     
   </entry>
   
   <entry>
-    <title>PyTorch基础</title>
-    <link href="http://example.com/2024/03/26/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/"/>
-    <id>http://example.com/2024/03/26/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/</id>
+    <title>矩阵求导原理</title>
+    <link href="http://example.com/2024/03/26/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/"/>
+    <id>http://example.com/2024/03/26/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/</id>
     <published>2024-03-26T03:35:58.000Z</published>
-    <updated>2024-03-27T14:07:43.259Z</updated>
+    <updated>2024-03-27T14:11:30.942Z</updated>
     
     
-    <summary type="html">PyTorch基础——数据操作与预处理、线性代数、矩阵计算、自动求导</summary>
+    <summary type="html">矩阵求导的数学原理</summary>
     
     
     
