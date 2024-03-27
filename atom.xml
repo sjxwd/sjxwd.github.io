@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-26T04:34:29.545Z</updated>
+  <updated>2024-03-27T12:02:06.078Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2024/03/27/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/"/>
+    <id>http://example.com/2024/03/27/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/</id>
+    <published>2024-03-27T12:02:06.077Z</published>
+    <updated>2024-03-27T12:02:06.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;声明：以下内容来自知乎up主[lterator](&lt;a href=&quot;https://zhuanlan.zhihu.com/p/263777564&quot;&gt;矩阵求导的本质与分子布局、分母布局的本质（矩阵求导——本质篇） - 知乎</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>PyTorch基础</title>

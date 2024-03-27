@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2024/03/27/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/"/>
+    <url>/2024/03/27/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC/</url>
+    
+    <content type="html"><![CDATA[<p><strong>声明：以下内容来自知乎up主[lterator](<a href="https://zhuanlan.zhihu.com/p/263777564">矩阵求导的本质与分子布局、分母布局的本质（矩阵求导——本质篇） - 知乎 (zhihu.com)</a>)</strong></p><p>首先，对于函数与变量，分别有三种形式为标量，向量，矩阵。针对不同的类型，求导结果不同。</p><h2 id="一、布局"><a href="#一、布局" class="headerlink" title="一、布局"></a>一、布局</h2><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403261913557.png"></p><p><strong>总的来说，可以概括为：</strong></p><ul><li><strong>谁是列向量就是谁的布局。(是谁的布局谁就是行)</strong></li><li><strong>求导时按列向量求导，按行向量写。</strong></li></ul><p>理解：</p><ul><li><p>第一条是说：</p><p>如果分子为列向量，那么就是分子布局，分母是列向量就是分母布局。</p><p>是分子布局的话，行为分子的行，列为分母的列。分母布局亦是。</p></li><li><p>第二条是说：</p><p>对于(3)式，分子f是二维列向量，x是三维行向量，那么求导的f要按列向量求，也就是说每一列都是二维的，第一个数是f1，第二个数是f2。而写的时候要按行向量写，也就是每一行都是三维的，第一个数是x1，第二个是x2，第三个是x3</p><p>对于(4)式，分子f是二维行向量，x是三维列向量，那么求导的f要按列向量求，也就是说每一列都是三维的，第一个数是x1，第二个是x2，第三个是x3。而写的时候要按行向量写，也就是说每一行都是二维的，第一个数是f1，第二个数是f2。</p></li></ul><p><strong>注意：行和列是人为定义的，用哪个布局没有限制，对于一个向量求导可以用分子布局，也可以用分母布局。假如用分子布局的话，那么结果的第一个维度就用分子的维度就行，不论分子是行还是列向量。</strong></p><h2 id="二、求导"><a href="#二、求导" class="headerlink" title="二、求导"></a>二、求导</h2><h3 id="1-函数为标量，变量为向量"><a href="#1-函数为标量，变量为向量" class="headerlink" title="1. 函数为标量，变量为向量"></a>1. 函数为标量，变量为向量</h3><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403261927298.png"></p><p><strong>注意：梯度向量形式就是列向量偏导形式</strong></p><h3 id="2-函数为标量，变量为矩阵"><a href="#2-函数为标量，变量为矩阵" class="headerlink" title="2. 函数为标量，变量为矩阵"></a>2. 函数为标量，变量为矩阵</h3><p><strong>补充：</strong></p><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403261939070.png"></p><p><strong>求导形式：</strong></p><p>行向量的形式：</p><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403261950829.png"></p><p>梯度向量的形式：</p><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262025887.png"></p><p>矩阵的形式：</p><p>两种不同布局的矩阵形式</p><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262026903.png"></p><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262026369.png"></p><h3 id="3-函数为矩阵，变量为矩阵"><a href="#3-函数为矩阵，变量为矩阵" class="headerlink" title="3. 函数为矩阵，变量为矩阵"></a>3. 函数为矩阵，变量为矩阵</h3><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262035184.png"></p><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262035698.jpeg"></p><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262034897.png"></p><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262034136.jpeg"></p><h3 id="4-总结"><a href="#4-总结" class="headerlink" title="4. 总结"></a>4. 总结</h3><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403262036600.png"></p><h3 id="5-分子布局的矩阵求导运算"><a href="#5-分子布局的矩阵求导运算" class="headerlink" title="5. 分子布局的矩阵求导运算"></a>5. 分子布局的矩阵求导运算</h3><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403272000499.png"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>PyTorch基础</title>
     <link href="/2024/03/26/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/"/>
     <url>/2024/03/26/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%A2%84%E5%A4%84%E7%90%86/</url>
