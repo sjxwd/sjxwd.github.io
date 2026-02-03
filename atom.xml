@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-29T04:21:13.044Z</updated>
+  <updated>2026-02-03T05:34:08.168Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>article title</title>
+    <link href="http://example.com/2026/02/03/article-title/"/>
+    <id>http://example.com/2026/02/03/article-title/</id>
+    <published>2026-02-03T04:45:02.000Z</published>
+    <updated>2026-02-03T05:34:08.168Z</updated>
+    
+    
+    <summary type="html">肥肉</summary>
+    
+    
+    
+    <category term="统计机器学习" scheme="http://example.com/categories/%E7%BB%9F%E8%AE%A1%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="诗词" scheme="http://example.com/tags/%E8%AF%97%E8%AF%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>Pandas基础</title>
