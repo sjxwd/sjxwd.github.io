@@ -4,31 +4,6 @@
   
   
   <entry>
-    <title>article title</title>
-    <link href="/2026/02/03/article-title/"/>
-    <url>/2026/02/03/article-title/</url>
-    
-    <content type="html"><![CDATA[<p>r华人</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>统计机器学习</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>诗词</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Pandas基础</title>
     <link href="/2024/03/28/Pandas%E5%9F%BA%E7%A1%80/"/>
     <url>/2024/03/28/Pandas%E5%9F%BA%E7%A1%80/</url>
@@ -37,6 +12,8 @@
     
     
     <categories>
+      
+      <category>Python</category>
       
       <category>Pandas</category>
       
@@ -63,6 +40,8 @@
     
     <categories>
       
+      <category>Python</category>
+      
       <category>PyTorch</category>
       
     </categories>
@@ -87,6 +66,8 @@
     
     
     <categories>
+      
+      <category>Python</category>
       
       <category>PyTorch</category>
       
@@ -163,6 +144,8 @@
     
     <categories>
       
+      <category>Python</category>
+      
       <category>NumPy</category>
       
     </categories>
@@ -188,6 +171,8 @@
     
     <categories>
       
+      <category>Python</category>
+      
       <category>NumPy</category>
       
     </categories>
@@ -212,6 +197,8 @@
     
     
     <categories>
+      
+      <category>文学</category>
       
       <category>诗词</category>
       

@@ -82,6 +82,7 @@
 <p> <strong>声明：以上图及部分内容来自b站up主[“爆肝杰哥”](<a href="https://space.bilibili.com/358229576">爆肝杰哥的个人空间-爆肝杰哥个人主页-哔哩哔哩视频 (bilibili.com)</a>)</strong></p>
 ]]></content>
       <categories>
+        <category>Python</category>
         <category>NumPy</category>
       </categories>
       <tags>
@@ -105,6 +106,7 @@
 
 ]]></content>
       <categories>
+        <category>Python</category>
         <category>NumPy</category>
       </categories>
       <tags>
@@ -189,6 +191,7 @@
 <p>在上述示例中，数据透视表中的数值默认是输出特征“是否生还”的均值 （mean），行标签和列标签变成了其它的输入特征。值得注意的是，pivot_table() 方法有一个很重要的参数：aggfunc，其默认值 是’mean’，除此以外，所有的聚合函数 ‘max’、’min’、’sum’、’count’ 均可使用。 显然，对于这里的“是否生还，来说的话，’mean’就是最好的选择，其刚好为概率。</p>
 ]]></content>
       <categories>
+        <category>Python</category>
         <category>Pandas</category>
       </categories>
       <tags>
@@ -372,6 +375,7 @@
 <h3 id="5-分子布局的矩阵求导运算"><a href="#5-分子布局的矩阵求导运算" class="headerlink" title="5. 分子布局的矩阵求导运算"></a>5. 分子布局的矩阵求导运算</h3><p><img src="https://cdn.jsdelivr.net/gh/sjxwd/my_blog_picture@main/img/202403272000499.png"></p>
 ]]></content>
       <categories>
+        <category>Python</category>
         <category>PyTorch</category>
       </categories>
       <tags>
@@ -448,6 +452,7 @@
 
 ]]></content>
       <categories>
+        <category>Python</category>
         <category>PyTorch</category>
       </categories>
       <tags>
@@ -541,19 +546,8 @@
 <p>出自王昌龄的《送柴侍御》，原句为：青山一道同云雨， 明月何曾是两乡。意思为：你我一路相连的青山共沐风雨，同顶一轮明月又何曾身处两地呢？</p>
 ]]></content>
       <categories>
+        <category>文学</category>
         <category>诗词</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>article title</title>
-    <url>/2026/02/03/article-title/</url>
-    <content><![CDATA[<p>r华人</p>
-]]></content>
-      <categories>
-        <category>统计机器学习</category>
       </categories>
       <tags>
         <tag>诗词</tag>
